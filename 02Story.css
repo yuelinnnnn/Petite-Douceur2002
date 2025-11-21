@@ -1,0 +1,100 @@
+/* ------------------------------------------------------------------------品牌故事------------------------------------------------------------------------ */
+        .story-wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        .story1, .story2, .story3 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            gap: 40px;
+        }
+        .story1 img {
+            width: 55%;
+            object-fit: cover;
+        }
+        .story1-txt {
+            width: 45%;
+            padding: 20px;
+        }
+        .story2 {
+            flex-direction: row-reverse;
+        }
+        .story2 img {
+            width: 55%;
+            object-fit: cover;
+        }
+        .story2-txt {
+            width: 45%;
+            padding: 20px;
+        }
+        .story3 img {
+            width: 55%;
+            object-fit: cover;
+        }
+        .story3-txt {
+            width: 45%;
+            padding: 20px;
+        }
+        .story1 h3, .story2 h3, .story3 h3 {
+            font-size: 24px;
+            color:#624B61;
+            font-weight: normal;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-left: 5px solid #EEBCC2;
+        }
+        .story1 p, .story2 p, .story3 p {
+            font-size: 16px;
+            text-align: justify;
+            line-height: 2;
+        }
+        .story1-piclist {
+            display: flex;
+            justify-content: center;
+            margin: 50px 0 50px 0;
+            padding-left: 300px;
+        }
+        .story1-piclist .picfix1 {
+            padding-bottom: 50px;
+        }
+        .story1-piclist .picfix2 {
+            padding-top: 100px;
+        }
+        .story2-piclist {
+            display: flex;
+            justify-content: center;
+            margin: 50px 0 50px 0;
+            padding-right: 300px;
+        }
+        .story2-piclist .picfix1 {
+            padding-bottom: 50px;
+        }
+        .story2-piclist .picfix2 {
+            padding-top: 100px;
+        }
+        .story3-piclist {
+            display: flex;
+            justify-content: center;
+            margin: 50px 0 50px 0;
+        }
+        .story3-piclist .picfix1 {
+            padding-bottom: 50px;
+        }
+        .story3-piclist .picfix2 {
+            padding-top: 50px;
+        }
+        .story3-piclist .picfix3 {
+            padding-top: 100px;
+        }
+        .picfix1 img {
+            width: 90%;
+        }
+        .picfix2 img {
+            width: 90%;
+        }
+        .picfix3 img {
+            width: 90%;
+        }

@@ -1,0 +1,85 @@
+/* ------------------------------------------------------------------------聯絡我們------------------------------------------------------------------------ */
+        .contact-wrapper {
+            width: 100%;
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        .contact-cardlist {
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+        }
+        .contact-card h3 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            position: relative;
+            padding-left: 20px;
+            border-left: 5px solid #EEBCC2;
+        }
+        /* 常見問題 */
+        .contact-card ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            font-size: 16px;
+            padding-top: 30px;
+            padding-left: 150px;
+        }
+        .contact-card ul li {
+            line-height: 1.8;
+        }
+        /* 購買須知 */
+        .contact-card ol {
+            padding-left: 40px;
+            font-size: 16px;
+            padding-top: 30px;
+            padding-left: 150px;
+        }
+        .contact-card ol > li {
+            font-weight: bold;
+            margin: 10px 0 8px;
+            padding-left: 0;
+        }
+        .contact-card ol p {
+            font-weight: normal; 
+            margin-bottom: 30px;
+            padding-left: 0;
+        }
+        .contact-card ol ul {
+            list-style: disc;
+            font-weight: normal;
+            padding-left: 20px; 
+            margin-bottom: 30px;
+            margin-top: -25px;
+            gap: 5px; 
+        }
+        .contact-card ol ul li {
+            line-height: 1.6;
+        }
+        /* 客服 */
+        .customer-service-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; 
+            padding-left: 150px;
+        }
+        .customer-service-content ul {
+            flex: 1; 
+            max-width: 50%; 
+            gap: 12px; 
+            padding-left: 0; 
+        }
+        .customer-service-content img {
+            flex-shrink: 0;
+            width: 60%; 
+            max-width: 300px; 
+            margin-top: 0;
+            margin-left: 30px;
+            margin-top:50px;
+            height: auto;
+            object-fit: cover;
+        }

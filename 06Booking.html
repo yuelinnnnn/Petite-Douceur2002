@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>預約訂位</title>
+    <link rel="stylesheet" href="00style.css">
+    <link rel="stylesheet" href="06Booking.css">
+</head>
+<body>
+    <!--------導覽列-------->
+    <header class="navbar">
+        <div class="logo"><a href="index.html">
+            <img src="image/header-logo.svg" alt="logo">
+        </a></div>
+        <nav>
+            <ul>
+                <li><a href="02Story.html">品牌故事</a></li>
+                <li><a href="03Product.html">甜點品項</a></li>
+                <li><a href="06Booking.html">預約訂位</a></li>
+                <li><a href="07Review.html">食記</a></li>
+                <li><a href="08Contact.html">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--------TOP-------->
+    <button id="top" class="top-c">
+        <img src="image/top-1.svg" alt="">
+    </button>
+    <!--------Banner-------->
+    <section class="banner">
+        <h2>預約訂位</h2>
+    </section>
+    <main class="booking-wrapper">
+        <!--------表單-------->
+        <section class="booking-list">
+            <div class="b-input-group">
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" required>
+            </div>
+            <div class="b-input-group">
+                <label for="phone">手機號碼</label>
+                <input type="tel" id="phone" required>
+            </div>
+        </section>
+        <section class="booking-list">
+            <div class="b-input-group b-select-group">
+                <label for="people">人數</label>
+                <select id="people" required>
+                    <option>-</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <div class="b-input-group b-select-group">
+                <label for="date">日期</label>
+                <input type="date" id="date">
+            </div>
+            <div class="b-input-group b-select-group">
+                <label for="time">時間</label>
+                <select id="time" required>
+                    <option>-</option>
+                    <option>13:00</option>
+                    <option>14:00</option>
+                    <option>15:00</option>
+                    <option>16:00</option>
+                    <option>17:00</option>
+                </select>
+            </div>
+        </section>
+        <!--------相關事項-------->
+        <section class="booking-note">
+            <h3>相關事項</h3>
+            <div class="note-content">
+                <h4>預約與報到需知：</h4>
+                <ol>
+                    <li>預約方式：維持店內精緻與寧靜的氛圍，確保服務品質。本店採半預約制，請透過官方網站【預約訂位】系統進行預訂。</li>
+                    <li>預約時段：預約保留10分鐘，如逾時未抵達，將自動取消預約，且不另行通知。</li>
+                    <li>人數限制：線上系統單次預約上限為4位。超過5位以上的團體預約，請透過電話專人洽詢。</li>
+                </ol>
+
+                <h4>用餐規範與體驗細節：</h4>
+                <ol>
+                    <li>由於座位有限，內用時間限制為90分鐘（自訂位時間起算）。提醒您預留充足時間享受甜點和拍照。</li>
+                    <li>每人低消為一份飲品或一份主甜點（以單點菜單為準）。不接受合併計算。</li>
+                    <li>歡迎各位將美好的甜點分享至社群，但請留意：請勿攜帶大型攝影器材（如專業補光燈、反光板等），並請勿影響到鄰桌顧客的用餐權益。</li>
+                    <li>為維護餐點品質，本店禁止攜帶外食或外帶飲品。慶生蛋糕（整吋蛋糕）請透過本店網站預訂。</li>
+                    <li>考量店內環境與餐點精緻度，本店不開放攜帶寵物入內；若攜帶幼童，請確保在座位內，避免奔跑及大聲喧嘩。</li>
+                </ol>
+
+                <h4>預約變更與取消：</h4>
+                <ol>
+                    <li>如需更改或取消預約，請於原訂位時間24小時前，使用系統發送的預約確認連結進行操作。</li>
+                    <li>若24小時內臨時取消或未如期報到（No Show），將影響您未來預約本店座位的權益。</li>
+                </ol>
+            </div>
+            <div class="consent-checkbox">
+                <input type="checkbox" id="consent" required>
+                <label for="consent">我已了解相關規範並遵守</label>
+            </div>
+            <button class="submit-reservation-btn">確認訂位</button>
+        </section>
+        <!--------交通資訊-------->
+        <section class="traffic-info">
+            <h3>交通資訊</h3>
+            <div class="info-detial">
+                <h4>交通方式</h4>
+                <p>捷運：板南線/文湖線「忠孝復興站」：3 號或 4 號出口，沿大安路一段方向步行約 7-10 分鐘。板南線「忠孝敦化站」：3 號出口，沿忠孝東路四段轉入 216 巷，步行約 5-7 分鐘。</p>
+                <p>公車：建議搭乘至 「頂好市場站」 或 「捷運忠孝敦化站」，下車後步行約 5 分鐘即可抵達。</p>
+                <p>自行開車 / 停車：建議將車輛停放至「市民大道敦化南路口停車場」或「大安路一段巷弄內收費停車格」，步行至門市約需 5-10 分鐘。</p>
+                <p>地圖如下:</p>
+            </div>
+        </section>
+    </main>
+    <section class="map-area">
+            <div class="map">
+                <div class="mv">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.830982109331!2d121.54940827462056!3d25.03980933805901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abcf7d35574d%3A0xea74d7ee19362ed0!2zMTA26Ie65YyX5biC5aSn5a6J5Y2A5b-g5a2d5p2x6Lev5Zub5q61MjE25be3MzLlvIQxOOiZnw!5e0!3m2!1szh-TW!2stw!4v1763180734293!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    <!--------頁尾-------->
+    <footer class="footer">
+        <h5>Petite Douceur</h5>
+        <div class="icon">
+            <a href="#"><img src="image/logo-ins.svg" alt="ins"></a>
+            <a href="#"><img src="image/logo-line.svg" alt="line"></a>
+        </div>
+        <div class="ft-t">
+            <p>地址：台北市大安區忠孝東路四段216巷32弄18號</p>
+            <p><a href="#">條款與政策</a></p>
+        </div>
+    </footer>
+</body>
+</html>

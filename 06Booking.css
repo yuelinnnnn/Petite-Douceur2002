@@ -1,0 +1,146 @@
+/* ------------------------------------------------------------------------預約訂位------------------------------------------------------------------------ */
+        .booking-wrapper {
+            width: 70%;
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .booking-list {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .b-input-group {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0px;
+            line-height: 45px;
+        }
+
+        .b-input-group label {
+            font-size: 18px;
+            margin-bottom: 0;
+            width: 80px;
+            flex-shrink: 0;
+            text-align: center;
+        }
+        .b-input-group input[type="text"],
+        .b-input-group input[type="date"],
+        .b-input-group input[type="tel"],
+        .b-input-group select {
+            padding: 10px 15px;
+            border: 1px solid #E0E0E0;
+            border-radius: 5px;
+            background-color: #E8D6D060;
+            font-size: 16px;
+            height: 45px;
+            width: 100%;
+            appearance: none;
+        }
+        .booking-note h3 {
+            font-size: 24px;
+            margin-top: 100px;
+            text-align: center;
+        }
+        .note-content {
+            background-color: #E8D6D060; 
+            border: 1px solid #E0E0E0;
+            padding: 40px;
+            margin-top: 100px;
+            border-radius: 8px;
+            position: relative;
+        }
+        .note-content h4 {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .note-content ol {
+            margin-left: 20px;
+            padding-left: 0;
+            font-size: 14px;
+            list-style-position: outside;
+        }
+        .note-content ol li {
+            margin-bottom: 10px;
+        }
+        .consent-checkbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0;
+            font-size: 16px;
+            color: #000;
+        }
+        .consent-checkbox input[type="checkbox"] {
+            margin-right: 10px;
+            padding-top: 50px;
+            width: 18px;
+            height: 18px;
+            accent-color: #EEBCC2;
+        }
+        .submit-reservation-btn {
+            display: block;
+            width: 300px;
+            padding: 12px 20px;
+            margin: 0 auto;
+            margin-top: 100px;
+            background-color: #EEBCC2;
+            color: #000;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-reservation-btn:hover {
+            background-color: #624B61;
+            color: #fff;
+        }
+        .traffic-info {
+            margin-top: 60px;
+            padding-bottom: 30px;
+        }
+        .traffic-info h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .info-detial h4 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .info-detial p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .map-area {
+            margin-top: 50px;
+            margin-bottom: 0;
+            border: none;
+            padding: 0;
+            background-color: transparent; 
+        }
+        .map {
+            width: 100%;
+        }
+        .mv {
+            position: relative;
+            padding-bottom: 35%;
+            overflow: hidden;
+        }
+        .mv iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
