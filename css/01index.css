@@ -141,7 +141,7 @@
             flex-direction: row-reverse;
         }
         .items-right .image-wrapper {
-            margin-left: -10%; 
+            margin-left: -5%; 
             margin-right: 0;
         }
         .items-right .content {

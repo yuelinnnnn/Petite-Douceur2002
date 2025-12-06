@@ -387,11 +387,17 @@ p {
         .banner h2 {
             font-size: 32px;
             font-weight: normal;
-            letter-spacing: 2px;
+            letter-spacing: 10px;
             padding-bottom: 5px;
         }
 
     @media screen and (max-width:768px){
+        .banner {
+            background-image: url(../image/02Story/Banner-phone.jpg);
+        }
+    }
+
+    @media screen and (768px<width<=1024px){
         .banner {
             background-image: url(../image/02Story/Banner-phone.jpg);
         }

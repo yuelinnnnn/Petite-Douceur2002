@@ -28,7 +28,7 @@
             }
         
         .runpic-section h4 {
-            font-size: 24px;
+            font-size: 20px;
             letter-spacing: 2px;
             margin-left: 6px;
             margin-right: 6px;
@@ -52,7 +52,6 @@
             margin: 0;
             flex: 0 0 100%;
         }
-        
     
         .theme-wrapper .image-wrapper {
             width: 100%;

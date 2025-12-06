@@ -31,7 +31,6 @@
         text-align: left;
     }
 
-
     .re-btn {
         justify-content: flex-end; 
         padding-right: 50px;    
@@ -47,4 +46,14 @@
         font-size: 16px;
         margin-bottom: 50px;
     }
+}
+
+@media screen and (768px<width<=1024px){
+    .review-card h4 {
+        padding-right: 20px;
+    }
+    .re-btn {
+        margin-left: -150px;
+    } 
+
 }
