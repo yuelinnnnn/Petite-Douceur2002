@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+    .review-grid-wrapper {
+        width: 90%;
+        padding-top: 0;
+    }
+    
+    .page-slogan {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .page-slogan p {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .review-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .review-card h4 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 0 5px;
+        text-align: center;
+    }
+
+    .review-card p {
+        padding: 0 20px;
+        text-align: left;
+    }
+
+
+    .re-btn {
+        justify-content: flex-end; 
+        padding-right: 50px;    
+        padding-bottom: 20px;   
+        margin-top: 20px;      
+    } 
+
+    .more-action {
+        margin-top: 0; 
+    }
+
+    .more-btn {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+}

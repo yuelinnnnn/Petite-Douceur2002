@@ -4,28 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>聯絡我們</title>
-    <link rel="stylesheet" href="00style.css">
-    <link rel="stylesheet" href="08Contact.css">
+    <link rel="stylesheet" href="css/00style.css">
+    <link rel="stylesheet" href="css/08Contact.css">
+    <link rel="stylesheet" href="css/08RWD.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <!--------導覽列-------->
-    <header class="navbar">
+    <header class="navbar">        
         <div class="logo"><a href="index.html">
             <img src="image/header-logo.svg" alt="logo">
         </a></div>
+        <input type="checkbox" id="menu-control" class="menu-switch">
+        <label for="menu-control" class="hb">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+        </label>
         <nav>
             <ul>
                 <li><a href="02Story.html">品牌故事</a></li>
+                <hr>
                 <li><a href="03Product.html">甜點品項</a></li>
+                <hr>
                 <li><a href="06Booking.html">預約訂位</a></li>
+                <hr>
                 <li><a href="07Review.html">食記</a></li>
+                <hr>
                 <li><a href="08Contact.html">聯絡我們</a></li>
             </ul>
         </nav>
     </header>
     <!--------TOP-------->
-    <button id="top" class="top-c">
-        <img src="image/top-1.svg" alt="">
+    <button class="top">
+        <i class="fas fa-chevron-up"></i>
+        <span>TOP</span>
     </button>
     <!--------Banner-------->
     <section class="banner">
@@ -33,24 +46,19 @@
     </section>
     <main class="contact-wrapper">
         <section class="contact-cardlist">
-            <section class="contact-card">
+            <section class="contact-card fade-in-section">
                 <h3>常見問題</h3>
                 <ul>
-                    <li>Q: 門市是否開放現場候位？<br>A:本店採半預約制，可透過官網系統提前預約，也可現場候位。</li>
-
-                    <li>Q:內用時間有限制嗎？低消規定為何？<br>A:內用時間為90分鐘。每人低消為一份飲品或一份主甜點。</li>
-
-                    <li>Q:訂購整吋蛋糕或禮盒需要多久前預訂？<br>A:建議至少在取貨/到貨日7天前完成預訂，以確保我們有足夠時間為您手工製作。緊急訂單請致電客服。</li>
-
-                    <li>Q:甜點如何保鮮及保存？<br>A:大部分甜點建議在2小時內放入冰箱冷藏，最佳賞味期限請參閱包裝標示。我們強烈建議外帶時加購保冷袋。</li>
-
-                    <li>Q:是否提供外縣市宅配服務？<br>A: 是的，我們提供低溫宅配服務。運費將依商品材積、重量及配送地點計算，詳情請參考結帳頁面或運送條款。</li>
-
-                    <li>Q:宅配有損壞風險嗎？<br>A:雖然我們會加強包裝，但宅配仍有不可控風險。若收件時發現嚴重破損，請於2小時內拍照並聯繫客服，我們將協助處理。</li>
+                    <li><span class="q-style">Q: 門市是否開放現場候位？</span><br>A:本店採半預約制，可透過官網系統提前預約，也可現場候位。</li>
+                    <li><span class="q-style">Q:內用時間有限制嗎？低消規定為何？</span><br>A:內用時間為90分鐘。每人低消為一份飲品或一份主甜點。</li>
+                    <li><span class="q-style">Q:訂購整吋蛋糕或禮盒需要多久前預訂？</span><br>A:建議至少在取貨/到貨日7天前完成預訂，以確保我們有足夠時間為您手工製作。緊急訂單請致電客服。</li>
+                    <li><span class="q-style">Q:甜點如何保鮮及保存？</span><br>A:大部分甜點建議在2小時內放入冰箱冷藏，最佳賞味期限請參閱包裝標示。我們強烈建議外帶時加購保冷袋。</li>
+                    <li><span class="q-style">Q:是否提供外縣市宅配服務？</span><br>A: 是的，我們提供低溫宅配服務。運費將依商品材積、重量及配送地點計算，詳情請參考結帳頁面或運送條款。</li>
+                    <li><span class="q-style">Q:宅配有損壞風險嗎？</span><br>A:雖然我們會加強包裝，但宅配仍有不可控風險。若收件時發現嚴重破損，請於2小時內拍照並聯繫客服，我們將協助處理。</li>
                 </ul>
             </section>
 
-            <section class="contact-card">
+            <section class="contact-card fade-in-section">
                 <h3>購買須知</h3>
                 <ol>
                     <li>隱私權政策</li>
@@ -70,7 +78,7 @@
                 </ol>
             </section>
 
-            <section class="contact-card">
+            <section class="contact-card fade-in-section">
                 <h3>客服</h3>
                 <div class="customer-service-content">
                     <ul>
@@ -103,5 +111,6 @@
             <p><a href="#">條款與政策</a></p>
         </div>
     </footer>
+    <script src="./js/same.js"></script>
 </body>
 </html>

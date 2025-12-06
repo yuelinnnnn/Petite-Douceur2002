@@ -1,6 +1,6 @@
 /* ------------------------------------------------------------------------聯絡我們------------------------------------------------------------------------ */
         .contact-wrapper {
-            width: 100%;
+            width: 70%;
             max-width: 1200px;
             margin: 60px auto;
             padding: 0 20px;
@@ -32,6 +32,9 @@
         .contact-card ul li {
             line-height: 1.8;
         }
+        .q-style {
+            font-weight: bold;
+        }
         /* 購買須知 */
         .contact-card ol {
             padding-left: 40px;
@@ -45,7 +48,7 @@
             padding-left: 0;
         }
         .contact-card ol p {
-            font-weight: normal; 
+            color: #000;
             margin-bottom: 30px;
             padding-left: 0;
         }

@@ -4,28 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>甜點品項</title>
-    <link rel="stylesheet" href="00style.css">
-    <link rel="stylesheet" href="03Product.css">
+    <link rel="stylesheet" href="css/00style.css">
+    <link rel="stylesheet" href="css/03Product.css">
+    <link rel="stylesheet" href="css/03RWD.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <!--------導覽列-------->
-    <header class="navbar">
+    <header class="navbar">        
         <div class="logo"><a href="index.html">
             <img src="image/header-logo.svg" alt="logo">
         </a></div>
+        <input type="checkbox" id="menu-control" class="menu-switch">
+        <label for="menu-control" class="hb">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+        </label>
         <nav>
             <ul>
                 <li><a href="02Story.html">品牌故事</a></li>
+                <hr>
                 <li><a href="03Product.html">甜點品項</a></li>
+                <hr>
                 <li><a href="06Booking.html">預約訂位</a></li>
+                <hr>
                 <li><a href="07Review.html">食記</a></li>
+                <hr>
                 <li><a href="08Contact.html">聯絡我們</a></li>
             </ul>
         </nav>
     </header>
     <!--------TOP-------->
-    <button id="top" class="top-c">
-        <img src="image/top-1.svg" alt="">
+    <button class="top">
+        <i class="fas fa-chevron-up"></i>
+        <span>TOP</span>
     </button>
     <!--------Banner-------->
     <section class="banner">
@@ -34,6 +47,7 @@
     <main class="pd-wrapper">
         <!--------類別-------->
         <div class="fl-box">
+            <h3>蛋糕</h3>
             <nav class="categories">
                 <a href="#">所有品項</a>
                 <span class="divide">|</span>
@@ -42,13 +56,11 @@
                 <a href="#">單品</a>
                 <span class="divide">|</span>
                 <a href="#">禮盒</a>
-                <span class="divide">|</span>
             </nav>
-            <h3>蛋糕</h3>
         </div>
         
         <!--------品項-------->
-        <section class="pd-grid">
+        <section class="pd-grid fade-in-section">
             <div class="pdcard"><a href="04PDinner.html">
                 <div class="pd-pic">
                     <img src="image/03Product/s01.jpg" alt="s01">
@@ -158,5 +170,6 @@
             <p><a href="#">條款與政策</a></p>
         </div>
     </footer>
+    <script src="./js/same.js"></script>
 </body>
 </html>

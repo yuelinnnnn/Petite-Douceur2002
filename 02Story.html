@@ -4,28 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>品牌故事</title>
-    <link rel="stylesheet" href="00style.css">
-    <link rel="stylesheet" href="02Story.css">
+    <link rel="stylesheet" href="css/00style.css">
+    <link rel="stylesheet" href="css/02Story.css">
+    <link rel="stylesheet" href="css/02RWD.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <!--------導覽列-------->
-    <header class="navbar">
+    <header class="navbar">        
         <div class="logo"><a href="index.html">
             <img src="image/header-logo.svg" alt="logo">
         </a></div>
+        <input type="checkbox" id="menu-control" class="menu-switch">
+        <label for="menu-control" class="hb">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+        </label>
         <nav>
             <ul>
                 <li><a href="02Story.html">品牌故事</a></li>
+                <hr>
                 <li><a href="03Product.html">甜點品項</a></li>
+                <hr>
                 <li><a href="06Booking.html">預約訂位</a></li>
+                <hr>
                 <li><a href="07Review.html">食記</a></li>
+                <hr>
                 <li><a href="08Contact.html">聯絡我們</a></li>
             </ul>
         </nav>
     </header>
     <!--------TOP-------->
-    <button id="top" class="top-c">
-        <img src="image/top-1.svg" alt="">
+    <button class="top">
+        <i class="fas fa-chevron-up"></i>
+        <span>TOP</span>
     </button>
     <!--------Banner-------->
     <section class="banner">
@@ -34,58 +47,64 @@
     <!--------內容-------->
     <main class="story-wrapper">
         <!--------發源理念-------->
-        <section class="story1">
-            <img src="image/02Story/w01.jpg" alt="w01">
-            <div class="story1-txt">
-                <h3>發源與理念<br>—尋找生活中的「小小的溫柔」</h3>
-                <p>在忙碌而快速運轉的城市裡，我們總是在追尋一個可以按下暫停鍵的理由。Petite Douceur的誕生，正是源於一份對日常美好的渴望。創辦人深信，真正的幸福，往往藏在那些不需聲張、卻充滿療癒力量的片刻中。我們的目標很簡單：用一塊純手工、精緻可愛的甜點，為您的生活創造一個溫柔的儀式。輕咬一口，就能從視覺的精緻、到味覺的層次中，找回那份屬於自己的寧靜與美好。</p>
+        <div class="fade-in-section">
+            <section class="story1 ">
+                <img src="image/02Story/w01.jpg" alt="w01">
+                <div class="story1-txt">
+                    <h3>發源與理念<br>—尋找生活中的「小小的溫柔」</h3>
+                    <p>在忙碌而快速運轉的城市裡，我們總是在追尋一個可以按下暫停鍵的理由。Petite Douceur的誕生，正是源於一份對日常美好的渴望。創辦人深信，真正的幸福，往往藏在那些不需聲 張、卻充滿療癒力量的片刻中。我們的目標很簡單：用一塊純手工、精緻可愛的甜點，為您的生活創造一個溫柔的儀式。輕咬一口，就能從視覺的精緻、到味覺的層次中，找回那份屬於自己的 寧靜與美好。</p>
+                </div>
+            </section>
+            <!--------排圖1-------->
+            <div class="story1-piclist">
+                <span class="picfix1">
+                    <img src="image/02Story/w01-1.jpg" alt="w01-1">
+                </span>
+                <span class="picfix2">
+                    <img src="image/02Story/w01-2.jpg" alt="w01-2">
+                </span>
             </div>
-        </section>
-        <!--------排圖1-------->
-        <div class="story1-piclist">
-            <span class="picfix1">
-                <img src="image/02Story/w01-1.jpg" alt="w01-1">
-            </span>
-            <span class="picfix2">
-                <img src="image/02Story/w01-2.jpg" alt="w01-2">
-            </span>
         </div>
         <!--------手工堅持-------->
-        <section class="story2">
-            <img src="image/02Story/w02.jpg" alt="w02">
-            <div class="story2-txt">
-                <h3>手工的堅持<br>—奶油感設計與專業的平衡</h3>
-                <p>「可愛」與「精緻專業」從不衝突。在Petite Douceur的廚房裡，每一顆甜點都是我們對「純手工」的嚴苛承諾。我們堅持選用頂級天然食材，以傳統工藝融合現代美學，打造出如藝術品般精緻、充滿奶油感療癒色彩的甜點。每一個圓潤的線條、每一層細膩的內餡、每一抹柔和的色彩，都經過甜點師的精心雕琢。這份對細節的專注，不僅體現了我們的專業態度，更確保了您所品嚐到的，是從外觀到口感都無可挑剔的高品質體驗。</p>
+        <div class="fade-in-section">
+            <section class="story2">
+                <img src="image/02Story/w02.jpg" alt="w02">
+                <div class="story2-txt">
+                    <h3>手工的堅持<br>—奶油感設計與專業的平衡</h3>
+                    <p>「可愛」與「精緻專業」從不衝突。在Petite Douceur的廚房裡，每一顆甜點都是我們對「純手工」的嚴苛承諾。我們堅持選用頂級天然食材，以傳統工藝融合現代美學，打造出如藝術品般精緻、充滿奶油感療癒色彩的甜點。每一個圓潤的線條、每一層細膩的內餡、每一抹柔和的色彩，都經過甜點師的精心雕琢。這份對細節的專注，不僅體現了我們的專業態度，更確保了您所品嚐到的，是從外觀到口感都無可挑剔的高品質體驗。</p>
+                </div>
+            </section>
+            <!--------排圖2-------->
+            <div class="story2-piclist">
+                <span class="picfix2">
+                    <img src="image/02Story/w02-1.jpg" alt="w02-1">
+                </span>
+                <span class="picfix1">
+                    <img src="image/02Story/w02-2.jpg" alt="w02-2">
+                </span>
             </div>
-        </section>
-        <!--------排圖2-------->
-        <div class="story2-piclist">
-            <span class="picfix2">
-                <img src="image/02Story/w02-1.jpg" alt="w02-1">
-            </span>
-            <span class="picfix1">
-                <img src="image/02Story/w02-2.jpg" alt="w02-2">
-            </span>
         </div>
         <!--------顧客連結-------->
-        <section class="story3">
-            <img src="image/02Story/w03.jpg" alt="w03">
-            <div class="story3-txt">
-                <h3>與顧客的連結<br>—讓美好在社群與餐桌上綻放</h3>
-                <p>Petite Douceur不僅販售甜點，我們更販售一份值得被記錄和分享的喜悅。我們深知您追求美感的生活態度，因此，我們的甜點被設計成最完美的打卡主角。無論是您在門市預約享受的下午茶時光、還是帶回家與親友共享的節慶禮盒，都希望能成為您社群動態中最吸睛的一道風景。我們誠摯邀請您，將這份「小小的甜美」帶入您的生活，與我們一同，讓這份溫柔的甜點，成為您療癒自己、表達愛意的最佳方式。</p>
+        <div class="fade-in-section">
+            <section class="story3">
+                <img src="image/02Story/w03.jpg" alt="w03">
+                <div class="story3-txt">
+                    <h3>與顧客的連結<br>—讓美好在社群與餐桌上綻放</h3>
+                    <p>Petite Douceur不僅販售甜點，我們更販售一份值得被記錄和分享的喜悅。我們深知您追求美感的生活態度，因此，我們的甜點被設計成最完美的打卡主角。無論是您在門市預約享受的下午茶時光、還是帶回家與親友共享的節慶禮盒，都希望能成為您社群動態中最吸睛的一道風景。我們誠摯邀請您，將這份「小小的甜美」帶入您的生活，與我們一同，讓這份溫柔的甜點，成為您療癒自己、表達愛意的最佳方式。</p>
+                </div>
+            </section>
+            <!--------排圖3-------->
+            <div class="story3-piclist">
+                <span class="picfix2">
+                    <img src="image/02Story/w03-1.jpg" alt="w03-1">
+                </span>
+                <span class="picfix1">
+                    <img src="image/02Story/w03-2.jpg" alt="w03-2">
+                </span>
+                <span class="picfix3">
+                    <img src="image/02Story/w03-3.jpg" alt="w03-3">
+                </span>
             </div>
-        </section>
-        <!--------排圖3-------->
-        <div class="story3-piclist">
-            <span class="picfix2">
-                <img src="image/02Story/w03-1.jpg" alt="w03-1">
-            </span>
-            <span class="picfix1">
-                <img src="image/02Story/w03-2.jpg" alt="w03-2">
-            </span>
-            <span class="picfix3">
-                <img src="image/02Story/w03-3.jpg" alt="w03-3">
-            </span>
         </div>
     </main>
     <!--------頁尾-------->
@@ -100,5 +119,6 @@
             <p><a href="#">條款與政策</a></p>
         </div>
     </footer>
+    <script src="./js/same.js"></script>
 </body>
 </html>

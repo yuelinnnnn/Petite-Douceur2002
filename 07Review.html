@@ -4,45 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>食記</title>
-    <link rel="stylesheet" href="00style.css">
-    <link rel="stylesheet" href="01index.css">
-    <link rel="stylesheet" href="07Review.css">
+    <link rel="stylesheet" href="css/00style.css">
+    <link rel="stylesheet" href="css/01index.css">
+    <link rel="stylesheet" href="css/07Review.css">
+    <link rel="stylesheet" href="css/01RWD.css">
+    <link rel="stylesheet" href="css/07RWD.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <!--------導覽列-------->
-    <header class="navbar">
+    <header class="navbar">        
         <div class="logo"><a href="index.html">
             <img src="image/header-logo.svg" alt="logo">
         </a></div>
+        <input type="checkbox" id="menu-control" class="menu-switch">
+        <label for="menu-control" class="hb">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+        </label>
         <nav>
             <ul>
                 <li><a href="02Story.html">品牌故事</a></li>
+                <hr>
                 <li><a href="03Product.html">甜點品項</a></li>
+                <hr>
                 <li><a href="06Booking.html">預約訂位</a></li>
+                <hr>
                 <li><a href="07Review.html">食記</a></li>
+                <hr>
                 <li><a href="08Contact.html">聯絡我們</a></li>
             </ul>
         </nav>
     </header>
     <!--------TOP-------->
-    <button id="top" class="top-c">
-        <img src="image/top-1.svg" alt="">
+    <button class="top">
+        <i class="fas fa-chevron-up"></i>
+        <span>TOP</span>
     </button>
     <!--------Banner-------->
     <section class="banner">
         <h2>食記</h2>
     </section>
-    <section class="page-slogan">
+    <section class="page-slogan fade-in-section">
         <p>「把日子過成甜點，溫柔療癒每一刻。」</p>
     </section>
     <!--------食記一覽-------->
     <main class="review-grid-wrapper">
-        <div class="review-grid">
+        <div class="review-grid fade-in-section">
             <div class="review-card">
                 <div class="re-pic">
                     <img src="image/07Review/e01.jpg" alt="e01">
                 </div>
-                <h4>「這裡根本是甜點界的攝影棚！每個角度都無懈可擊。」</h4>
+                <h4>「根本是甜點界的攝影棚！每個角度都無懈可擊。」</h4>
                 <p>甜點的外觀設計真的太太太精緻了，完全對得起 Petite Douceur 的品牌名稱。從擺盤到甜點本體都像藝術品，奶油花和線條的處理細膩到讓人捨不得吃。</p>
                 <div class="re-btn">
                     <button class="learnmore-btn"><a href="#">了解更多</a></button>
@@ -89,11 +103,17 @@
     </main>
     <!--------動圖區-------->
     <section>
-        <div class="runpic">
-            <img src="image/07Review/rb02-1.jpg" alt="rb2-1">
-            <img src="image/07Review/rb02-2.jpg" alt="rb2-2">
-            <img src="image/07Review/rb02-3.jpg" alt="rb2-3">
-            <img src="image/07Review/rb02-4.jpg" alt="rb2-4">
+        <div class="runpic-wrapper">
+            <div class="runpic">
+                <img src="image/07Review/rb02-1.jpg" alt="rb2-1">
+                <img src="image/07Review/rb02-2.jpg" alt="rb2-2">
+                <img src="image/07Review/rb02-3.jpg" alt="rb2-3">
+                <img src="image/07Review/rb02-4.jpg" alt="rb2-4">
+                <img src="image/07Review/rb02-1.jpg" alt="rb2-1">
+                <img src="image/07Review/rb02-2.jpg" alt="rb2-2">
+                <img src="image/07Review/rb02-3.jpg" alt="rb2-3">
+                <img src="image/07Review/rb02-4.jpg" alt="rb2-4">
+            </div>
         </div>
     </section>
     <!--------頁尾-------->
@@ -108,5 +128,6 @@
             <p><a href="#">條款與政策</a></p>
         </div>
     </footer>
+    <script src="./js/same.js"></script>
 </body>
 </html>

@@ -1,0 +1,125 @@
+@media (max-width: 768px) {
+    
+    .story-wrapper {
+        padding: 30px 15px;
+    }
+
+    .fade-in-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .story1, .story2, .story3 {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 20px;
+    }
+
+    .story1 img, .story2 img, .story3 img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .story1-txt, .story2-txt, .story3-txt {
+        width: 100%;
+        padding: 0;
+    }
+
+    .story1 h3, .story2 h3, .story3 h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .story1 p, .story2 p, .story3 p {
+        line-height: 1.8;
+    }
+    
+    .story1-piclist, .story2-piclist, .story3-piclist {
+        flex-direction: column; 
+        align-items: flex-start;
+        margin: 30px 0;
+        padding: 0;
+    }
+    
+    .picfix1, .picfix2{
+        width: 80%;
+    }
+    
+    .picfix1 img, .picfix2 img {
+        width: 80%;
+        height: auto;
+    }
+
+    .story1-piclist {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .story1-piclist .picfix1 {
+        margin-left: -50px;
+        margin-bottom: -100px;
+    }
+    .story1-piclist .picfix2 {
+        margin-right: -110px;
+    }
+
+    .story2-piclist {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .story2-piclist .picfix1 {
+        margin-left: 100px;
+    }
+    .story2-piclist .picfix2 {
+        padding-top: 0;
+        padding-bottom: 50px;
+        margin-left: -100px;
+        margin-right: -10%;
+    }
+
+
+    .story3-piclist {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap; 
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 0 10px;
+        margin: 40px 0;
+    }
+
+    .story3-piclist .picfix1, .story3-piclist .picfix2, .story3-piclist .picfix3 {
+        width: 33.33%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .story3-piclist .picfix1 img, .story3-piclist .picfix2 img, .story3-piclist .picfix3 img {
+        width: 100%;
+    }
+
+    .story3-piclist .picfix1 {
+        margin-top: 0;
+    }
+    .story3-piclist .picfix2 {
+        margin-top: 20px;
+    }
+    .story3-piclist .picfix3 {
+        margin-top: 50px; 
+    }
+
+}

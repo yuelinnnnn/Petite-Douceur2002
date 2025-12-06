@@ -6,7 +6,8 @@
         }
         .page-slogan p {
             font-size: 24px;
-            letter-spacing: 2px;
+            letter-spacing: 5px;
+            font-family: 'Noto Serif TC SemiBold', serif;
             position: relative;
             display: inline-block;
             padding-bottom: 5px;
@@ -30,6 +31,8 @@
             text-align: center;
             margin-bottom: 50px;
             transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
         }
         .review-card:hover {
             transform: translateY(-5px);
@@ -49,20 +52,22 @@
         }
         .review-card h4 {
             font-size: 20px;
+            font-family: 'Noto Serif TC SemiBold', serif;
             text-align: center;
             margin-top: 20px;
             margin-bottom: 20px;
         }
         .review-card p {
-            font-size: 20px;
+            font-size: 18px;
             text-align: left;
-            margin-bottom: 10px;
             padding-left: 10px;
-            padding-right: 10px;
+            padding-right: 15px;
+            margin-bottom: auto;
         }
         .re-btn {
             display: flex;
             margin-bottom: 20px;
+            margin-left: -20px;
             padding-bottom: 10px;
         }
         .more-action {
@@ -82,16 +87,4 @@
         .more-btn:hover {
             background-color: #624B61;
             color: #fff;
-        }
-        .runpic {
-            display: flex;
-            width: 100%;
-            overflow: hidden;
-        }
-        .runpic img {
-            flex-shrink: 0;
-            width: 25%;
-            height: auto;
-            object-fit: cover;
-            display: block;
         }

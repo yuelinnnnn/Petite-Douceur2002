@@ -2,8 +2,8 @@
     /* --------主視覺-------- */
         .hero {
             position: relative;
-            height: 80vh;
-            background-image: url('image/01Home/Banner-Index01.jpg');
+            height: 100vh;
+            background-image: url('../image/01Home/Banner-Index01.jpg');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -36,6 +36,7 @@
         .hero .h-bt {
             font-size: 24px;
             margin-bottom: 20px;
+            letter-spacing: 10px;
             font-family:'Noto Serif TC SemiBold',serif;
             color: #000;
         }
@@ -54,6 +55,11 @@
             text-align: center;
             background: #ffffff60;
             border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .hotpdcard:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px #ccc;
         }
         .hotpdcard img {
             width: 100%;
@@ -81,21 +87,35 @@
         .runpic-section h4 {
             font-size: 28px;
             font-family: 'Noto Serif TC SemiBold', serif;
+            letter-spacing: 5px;
             text-align: center;
             padding-bottom: 50px;
             margin:auto;
         }
+        .runpic-wrapper {
+            overflow: hidden;
+            width: 100%;
+            margin: 0 auto;
+        }
         .runpic {
             display: flex;
-            width: 100%;
-            overflow: hidden;
+            width: 2560px; 
+            animation: scroll-left 20s linear infinite;
         }
         .runpic img {
             flex-shrink: 0;
-            width: 25%;
+            width: 320px; 
             height: auto;
             object-fit: cover;
             display: block;
+        }
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-1280px);
+            }
         }
     /* --------簡介區-------- */
         .theme-list-section {
@@ -147,7 +167,7 @@
             z-index: 1;
         }
         .theme-wrapper h3 {
-            font-size: 32px;
+            font-size: 30px;
             margin-bottom: 15px;
             font-family: 'Noto Serif TC SemiBold', serif;
             margin-left: 15px;
@@ -183,3 +203,4 @@
         .learnmore-btn:hover a {
             color: #fff;
         }
+

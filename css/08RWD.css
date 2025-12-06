@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+    .contact-wrapper {
+        width: 90%;
+        margin: 50px auto;
+        padding: 0 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .contact-cardlist {
+        gap: 50px;
+    }
+
+    .contact-card ul, 
+    .contact-card ol {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    .contact-card ul {
+        gap: 20px;
+    }
+
+    .contact-card ol {
+        padding-left: 20px; 
+    }
+    .contact-card ol ul {
+        padding-left: 25px;
+        margin-bottom: 20px;
+    }
+    .customer-service-content {
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .customer-service-content ul {
+        max-width: 100%;
+        padding-left: 0; 
+    }
+    .customer-service-content ul li {
+        margin-bottom: 10px;
+    }
+    .customer-service-content img {
+        width: 80%;
+        max-width: 250px;
+        margin-top: 30px; 
+        margin-left: 0;
+        padding-top: 30px;
+        order: -1;
+    }
+    .contact-card:last-child {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-card ol ul {
+        list-style: disc;
+        font-weight: normal;
+        padding-left: 20px; 
+        margin-bottom: 30px;
+        margin-top: 5px; 
+        gap: 5px; 
+    }
+
+    .customer-service-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .customer-service-content img {
+        order: 1;
+        margin-top: 0;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+    .customer-service-content ul {
+        order: 2;
+    }
+}

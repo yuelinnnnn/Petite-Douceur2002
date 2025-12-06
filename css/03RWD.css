@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+        
+
+        .pd-wrapper {
+            width: 100%;
+            padding: 20px 5%;
+            margin: 20px auto;
+        }
+
+        .fl-box {
+            padding-bottom: 30px;
+        }
+
+        .categories {
+            flex-wrap: wrap; 
+            margin-top: 20px;
+        }
+
+        .categories a {
+            padding: 5px 10px; 
+            font-size: 14px;
+        }
+        
+        .pd-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+        
+        .pdcard h4 {
+            font-size: 20px;
+            padding-left: 10px;
+        }
+        .pdcard p {
+            font-size: 18px;
+            padding-right: 10px;
+        }
+    }

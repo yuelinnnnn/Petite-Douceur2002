@@ -4,28 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>預約訂位</title>
-    <link rel="stylesheet" href="00style.css">
-    <link rel="stylesheet" href="06Booking.css">
+    <link rel="stylesheet" href="css/00style.css">
+    <link rel="stylesheet" href="css/06Booking.css">
+    <link rel="stylesheet" href="css/06RWD.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <!--------導覽列-------->
-    <header class="navbar">
+    <header class="navbar">        
         <div class="logo"><a href="index.html">
             <img src="image/header-logo.svg" alt="logo">
         </a></div>
+        <input type="checkbox" id="menu-control" class="menu-switch">
+        <label for="menu-control" class="hb">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+        </label>
         <nav>
             <ul>
                 <li><a href="02Story.html">品牌故事</a></li>
+                <hr>
                 <li><a href="03Product.html">甜點品項</a></li>
+                <hr>
                 <li><a href="06Booking.html">預約訂位</a></li>
+                <hr>
                 <li><a href="07Review.html">食記</a></li>
+                <hr>
                 <li><a href="08Contact.html">聯絡我們</a></li>
             </ul>
         </nav>
     </header>
     <!--------TOP-------->
-    <button id="top" class="top-c">
-        <img src="image/top-1.svg" alt="">
+    <button class="top">
+        <i class="fas fa-chevron-up"></i>
+        <span>TOP</span>
     </button>
     <!--------Banner-------->
     <section class="banner">
@@ -33,7 +46,7 @@
     </section>
     <main class="booking-wrapper">
         <!--------表單-------->
-        <section class="booking-list">
+        <section class="booking-list fade-in-section">
             <div class="b-input-group">
                     <label for="name">姓名</label>
                     <input type="text" id="name" required>
@@ -43,7 +56,7 @@
                 <input type="tel" id="phone" required>
             </div>
         </section>
-        <section class="booking-list">
+        <section class="booking-list fade-in-section">
             <div class="b-input-group b-select-group">
                 <label for="people">人數</label>
                 <select id="people" required>
@@ -71,9 +84,9 @@
             </div>
         </section>
         <!--------相關事項-------->
-        <section class="booking-note">
-            <h3>相關事項</h3>
+        <section class="booking-note fade-in-section">
             <div class="note-content">
+                <h3>相關事項</h3>
                 <h4>預約與報到需知：</h4>
                 <ol>
                     <li>預約方式：維持店內精緻與寧靜的氛圍，確保服務品質。本店採半預約制，請透過官方網站【預約訂位】系統進行預訂。</li>
@@ -95,15 +108,15 @@
                     <li>如需更改或取消預約，請於原訂位時間24小時前，使用系統發送的預約確認連結進行操作。</li>
                     <li>若24小時內臨時取消或未如期報到（No Show），將影響您未來預約本店座位的權益。</li>
                 </ol>
-            </div>
-            <div class="consent-checkbox">
+                <div class="consent-checkbox">
                 <input type="checkbox" id="consent" required>
                 <label for="consent">我已了解相關規範並遵守</label>
+            </div>
             </div>
             <button class="submit-reservation-btn">確認訂位</button>
         </section>
         <!--------交通資訊-------->
-        <section class="traffic-info">
+        <section class="traffic-info fade-in-section">
             <h3>交通資訊</h3>
             <div class="info-detial">
                 <h4>交通方式</h4>
@@ -114,7 +127,7 @@
             </div>
         </section>
     </main>
-    <section class="map-area">
+    <section class="map-area fade-in-section">
             <div class="map">
                 <div class="mv">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.830982109331!2d121.54940827462056!3d25.03980933805901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abcf7d35574d%3A0xea74d7ee19362ed0!2zMTA26Ie65YyX5biC5aSn5a6J5Y2A5b-g5a2d5p2x6Lev5Zub5q61MjE25be3MzLlvIQxOOiZnw!5e0!3m2!1szh-TW!2stw!4v1763180734293!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -132,5 +145,6 @@
             <p><a href="#">條款與政策</a></p>
         </div>
     </footer>
+    <script src="./js/same.js"></script>
 </body>
 </html>

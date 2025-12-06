@@ -4,39 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petite Douceur</title>
-    <link rel="stylesheet" href="00style.css">
-    <link rel="stylesheet" href="01index.css">
+    <link rel="stylesheet" href="css/00style.css">
+    <link rel="stylesheet" href="css/01index.css">
+    <link rel="stylesheet" href="css/01RWD.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <!--------導覽列-------->
-    <header class="navbar">
+    <header class="navbar">        
         <div class="logo"><a href="index.html">
             <img src="image/header-logo.svg" alt="logo">
         </a></div>
+        <input type="checkbox" id="menu-control" class="menu-switch">
+        <label for="menu-control" class="hb">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+        </label>
         <nav>
             <ul>
                 <li><a href="02Story.html">品牌故事</a></li>
+                <hr>
                 <li><a href="03Product.html">甜點品項</a></li>
+                <hr>
                 <li><a href="06Booking.html">預約訂位</a></li>
+                <hr>
                 <li><a href="07Review.html">食記</a></li>
+                <hr>
                 <li><a href="08Contact.html">聯絡我們</a></li>
             </ul>
         </nav>
     </header>
     <!--------TOP-------->
-    <button id="top" class="top-c">
-        <img src="image/top-1.svg" alt="">
+    <button class="top">
+        <i class="fas fa-chevron-up"></i>
+        <span>TOP</span>
     </button>
     <!--------主視覺-------->
     <section class="hero">
         <div class="hero-content">
-            <h1>Petite Douceur</h1>
-            <p class="h-st">SINCE2020</p>
-            <p class="h-bt">剛剛好的甜美，是獻給自己的溫柔時光。</p>
+            <h1 class="fade-in-section">Petite Douceur</h1>
+            <p class="h-st fade-in-section">SINCE2020</p>
+            <p class="h-bt fade-in-section">剛剛好的甜美，是獻給自己的溫柔時光。</p>
         </div>
     </section>
     <!--------本月熱銷-------->
-    <div class="container">
+    <div class="container fade-in-section">
     <section class="hot-pd">
         <h2>本月熱銷</h2>
         <div class="hotpdcard-list">
@@ -57,11 +70,16 @@
             </a></div>
         </div>
     </section>
+    </div>
     <!--------動圖區-------->
-    <section class="runpic-section">
+    <section class="runpic-section fade-in-section">
         <h4>生活裡的 Petite Douceur，每天值得一個小小的、美好的理由。</h4>
         <div class="runpic-wrapper">
             <div class="runpic">
+                <img src="image/01Home/rb01-1.jpg" alt="rb01-1">
+                <img src="image/01Home/rb01-2.jpg" alt="rb01-2">
+                <img src="image/01Home/rb01-3.jpg" alt="rb01-3">
+                <img src="image/01Home/rb01-4.jpg" alt="rb01-4">
                 <img src="image/01Home/rb01-1.jpg" alt="rb01-1">
                 <img src="image/01Home/rb01-2.jpg" alt="rb01-2">
                 <img src="image/01Home/rb01-3.jpg" alt="rb01-3">
@@ -70,8 +88,9 @@
         </div>
     </section>
     <!--------簡介欄-------->
+    <div class="container">
     <section class="theme-list-section">        
-        <div class="theme-wrapper story-left">
+        <div class="theme-wrapper story-left fade-in-section">
             <div class="image-wrapper">
                 <img src="image/01Home/list01.jpg" alt="list01">
             </div>
@@ -83,7 +102,7 @@
                 <button class="learnmore-btn"><a href="02Story.html">了解更多</a></button>
             </div>
         </div>
-        <div class="theme-wrapper items-right order-reverse">
+        <div class="theme-wrapper items-right order-reverse fade-in-section">
             <div class="image-wrapper">
                 <img src="image/01Home/list02.jpg" alt="list02">
             </div>
@@ -95,7 +114,7 @@
                 <button class="learnmore-btn btn-sp"><a href="03Product.html">了解更多</a></button>
             </div>
         </div>
-        <div class="theme-wrapper notes-left">
+        <div class="theme-wrapper notes-left fade-in-section">
             <div class="image-wrapper">
                 <img src="image/01Home/list03.jpg" alt="list03">
             </div>
@@ -121,5 +140,6 @@
             <p><a href="#">條款與政策</a></p>
         </div>
     </footer>
+    <script src="./js/same.js"></script>
 </body>
 </html>

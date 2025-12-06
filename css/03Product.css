@@ -68,6 +68,8 @@
         .pdcard h4 {
             font-size: 24px;
             text-align: left;
+            font-family: 'Noto Serif TC SemiBold', serif;
+            color: #333;
             margin-top: 10px;
             margin-bottom: 30px;
             padding-left: 20px;
@@ -78,3 +80,4 @@
             margin-bottom: 10px;
             padding-right: 20px;
         }
+
