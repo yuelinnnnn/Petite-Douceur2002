@@ -1,4 +1,24 @@
 /* ------------------------------------------------------------------------品牌故事------------------------------------------------------------------------ */
+
+        /* --------Banner-------- */
+        .banner {
+            position: relative;
+            height: 40vh;
+            background-image: url('../image/02Story/Banner.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .banner h2 {
+            font-size: 32px;
+            font-weight: normal;
+            letter-spacing: 10px;
+            padding-bottom: 5px;
+        }
+
         .story-wrapper {
             max-width: 1000px;
             margin: 0 auto;

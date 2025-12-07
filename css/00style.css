@@ -370,39 +370,3 @@ p {
             transform: translateY(0);
             pointer-events: auto;
         }
-
-/* --------------------------------------------------------------------------內頁-------------------------------------------------------------------------- */
-    /* --------Banner-------- */
-        .banner {
-            position: relative;
-            height: 40vh;
-            background-image: url('../image/02Story/Banner.jpg');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        .banner h2 {
-            font-size: 32px;
-            font-weight: normal;
-            letter-spacing: 10px;
-            padding-bottom: 5px;
-        }
-
-    @media screen and (max-width:768px){
-        .banner {
-            background-image: url(../image/02Story/Banner-phone.jpg);
-        }
-
-        .banner h2 {
-            font-size: 28px;
-        }
-    }
-
-    @media screen and (768px<width<=1024px){
-        .banner {
-            background-image: url(../image/02Story/Banner-phone.jpg);
-        }
-    }

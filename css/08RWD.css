@@ -1,4 +1,12 @@
 @media (max-width: 768px) {
+
+    .banner {
+        background-image: url(../image/08Contact/Banner-phone.jpg);
+    }
+    .banner h2 {
+        font-size: 28px;
+    }
+
     .contact-wrapper {
         width: 90%;
         margin: 50px auto;
@@ -73,3 +81,9 @@
         order: 2;
     }
 }
+
+    @media screen and (768px<width<=1024px){
+        .banner {
+            background-image: url(../image/08Contact/Banner-phone.jpg);
+        }
+    }

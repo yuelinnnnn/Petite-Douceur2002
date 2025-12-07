@@ -1,6 +1,11 @@
 @media (max-width: 768px) {
         
-
+        .banner {
+        background-image: url(../image/03Product/Banner-phone.jpg);
+        }
+        .banner h2 {
+        font-size: 28px;
+        }
         .pd-wrapper {
             width: 100%;
             padding: 20px 5%;
@@ -36,5 +41,11 @@
         .pdcard p {
             font-size: 18px;
             padding-right: 10px;
+        }
+    }
+
+    @media screen and (768px<width<=1024px){
+        .banner {
+            background-image: url(../image/03Product/Banner-phone.jpg);
         }
     }

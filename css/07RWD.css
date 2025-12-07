@@ -1,4 +1,12 @@
 @media (max-width: 768px) {
+
+    .banner {
+        background-image: url(../image/07Review/Banner-phone.jpg);
+    }
+    .banner h2 {
+        font-size: 28px;
+    }
+
     .review-grid-wrapper {
         width: 90%;
         padding-top: 0;
@@ -49,6 +57,11 @@
 }
 
 @media screen and (768px<width<=1024px){
+
+    .banner {
+        background-image: url(../image/07Review/Banner-phone.jpg);
+    }
+
     .review-card h4 {
         padding-right: 20px;
     }
